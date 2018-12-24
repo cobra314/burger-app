@@ -12,7 +12,7 @@ const order = (props) => {
     }
 
     const ingredientOutput = ingredients.map( ig => {
-        return <span key={ig.id} style={{
+        return <span key={ig.name} style={{
                 textTransform: 'capitalize',
                 display: 'inline-block',
                 margin: '0 8px',
